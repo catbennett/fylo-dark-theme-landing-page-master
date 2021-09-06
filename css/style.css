@@ -91,6 +91,8 @@ nav
     border-radius: 20px;
     padding: 1em 6.5em 1em 6.5em;
     margin-bottom: 5%;
+    transition-duration: 0.5s;
+    cursor: pointer;
 }
 .benefit-section
 {
@@ -262,6 +264,8 @@ input[type="email"]::placeholder {
     border: none;
     border-radius: 2em;
     padding: 1.5em 4em 1.5em 4em;
+    transition-duration: 0.5s;
+    cursor: pointer;
 }
 
 .footer-logo
@@ -324,6 +328,7 @@ input[type="email"]::placeholder {
     text-align: left;
     font-size: 180%;
     display: inline;
+    transition-duration: 0.5s;
 
    
 }
@@ -332,6 +337,7 @@ input[type="email"]::placeholder {
     grid-area: socials;   
     text-align: left;
     display: inline;
+    transition-duration: 0.5s;
    
 }
 .foot
@@ -356,6 +362,38 @@ input[type="email"]::placeholder {
     font-family: 'Raleway', sans-serif;
     font-weight: 400;
 }
+
+.intro-button:hover
+{
+    background-color: hsl(176, 68%, 64%);
+    background-image:none;
+}
+.productive-text a:hover
+{
+    color:white;
+    border-bottom:solid white thin;
+}
+.arrow-icon:hover
+{
+    color:white;
+}
+.sign-up button:hover
+{
+    background-color: hsl(176, 68%, 64%);
+    background-image:none;
+}
+.social-icons ul li:hover
+{
+    color:hsl(176, 68%, 64%);
+}
+.contact-links ul li:hover
+{
+    font-weight: 700;
+}
+.about-us-link ul li:hover
+{
+    font-weight: 700;
+}
 @media only screen and (max-width: 900px) {
     .foot 
     {
@@ -379,7 +417,7 @@ input[type="email"]::placeholder {
     .footer-logo
     {
         padding-left:35px;
-        padding-top: 30%;
+        padding-top: 40%;
             
     }
     .social-icons
